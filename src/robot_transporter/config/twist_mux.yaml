@@ -1,0 +1,14 @@
+twist_mux:
+  ros__parameters:
+    topics:
+      # Prioritas 10 (Rendah) - Mode Otonom Garis
+      auto_mode:
+        topic: cmd_vel_auto
+        timeout: 0.5
+        priority: 10
+
+      # Prioritas 100 (Tinggi) - Mode Manual Stik PS4
+      manual_mode:
+        topic: cmd_vel_manual
+        timeout: 0.5
+        priority: 100

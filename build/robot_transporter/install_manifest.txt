@@ -2,6 +2,8 @@
 /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector
 /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/teleop_node
 /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/line_follower
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch/robot.launch.py
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config/twist_mux.yaml
 /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter
 /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter
 /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh

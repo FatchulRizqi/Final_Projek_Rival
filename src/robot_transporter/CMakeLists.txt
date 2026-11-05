@@ -24,7 +24,7 @@ target_include_directories(generate_marker PUBLIC ${OpenCV_INCLUDE_DIRS})
 target_link_libraries(generate_marker ${OpenCV_LIBS})
 
 add_executable(teleop_node src/teleop_node.cpp)
-ament_target_dependencies(teleop_node rclcpp geometry_msgs sensor_msgs)
+ament_target_dependencies(teleop_node rclcpp geometry_msgs sensor_msgs std_msgs)
 
 add_executable(line_follower src/line_follower.cpp)
 ament_target_dependencies(line_follower rclcpp geometry_msgs std_msgs)
