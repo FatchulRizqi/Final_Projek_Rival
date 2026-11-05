@@ -1,6 +1,8 @@
 /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/uninstall.dir
 /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/robot_transporter_uninstall.dir
 /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/generate_marker.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/teleop_node.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/line_follower.dir
 /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/aruco_detector.dir
 /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/test.dir
 /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/edit_cache.dir

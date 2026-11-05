@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6185c7fb3d999b7095c7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_transporter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aruco_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aruco_detector-9defab541498250e9dd0.json",
+					"name" : "aruco_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_marker::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_marker-b1049d85026d7f185af5.json",
+					"name" : "generate_marker",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "line_follower::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-line_follower-e67b59ee15282a117d25.json",
+					"name" : "line_follower",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_transporter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_transporter_uninstall-3e935d1ceee756c94fdb.json",
+					"name" : "robot_transporter_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "teleop_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-teleop_node-47d38abe48a3e530a0de.json",
+					"name" : "teleop_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ffda49fc1c1fb9db3f2c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/symphony/Final_Projek/build/robot_transporter",
+		"source" : "/home/symphony/Final_Projek/src/robot_transporter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

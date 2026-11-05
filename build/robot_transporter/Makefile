@@ -211,6 +211,32 @@ generate_marker/fast:
 .PHONY : generate_marker/fast
 
 #=============================================================================
+# Target rules for targets named teleop_node
+
+# Build rule for target.
+teleop_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 teleop_node
+.PHONY : teleop_node
+
+# fast build rule for target.
+teleop_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/build
+.PHONY : teleop_node/fast
+
+#=============================================================================
+# Target rules for targets named line_follower
+
+# Build rule for target.
+line_follower: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 line_follower
+.PHONY : line_follower
+
+# fast build rule for target.
+line_follower/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/build
+.PHONY : line_follower/fast
+
+#=============================================================================
 # Target rules for targets named aruco_detector
 
 # Build rule for target.
@@ -271,6 +297,54 @@ src/generate_marker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_marker.dir/build.make CMakeFiles/generate_marker.dir/src/generate_marker.cpp.s
 .PHONY : src/generate_marker.cpp.s
 
+src/line_follower.o: src/line_follower.cpp.o
+.PHONY : src/line_follower.o
+
+# target to build an object file
+src/line_follower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/src/line_follower.cpp.o
+.PHONY : src/line_follower.cpp.o
+
+src/line_follower.i: src/line_follower.cpp.i
+.PHONY : src/line_follower.i
+
+# target to preprocess a source file
+src/line_follower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/src/line_follower.cpp.i
+.PHONY : src/line_follower.cpp.i
+
+src/line_follower.s: src/line_follower.cpp.s
+.PHONY : src/line_follower.s
+
+# target to generate assembly for a file
+src/line_follower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/src/line_follower.cpp.s
+.PHONY : src/line_follower.cpp.s
+
+src/teleop_node.o: src/teleop_node.cpp.o
+.PHONY : src/teleop_node.o
+
+# target to build an object file
+src/teleop_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o
+.PHONY : src/teleop_node.cpp.o
+
+src/teleop_node.i: src/teleop_node.cpp.i
+.PHONY : src/teleop_node.i
+
+# target to preprocess a source file
+src/teleop_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/src/teleop_node.cpp.i
+.PHONY : src/teleop_node.cpp.i
+
+src/teleop_node.s: src/teleop_node.cpp.s
+.PHONY : src/teleop_node.s
+
+# target to generate assembly for a file
+src/teleop_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/src/teleop_node.cpp.s
+.PHONY : src/teleop_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -288,12 +362,20 @@ help:
 	@echo "... uninstall"
 	@echo "... aruco_detector"
 	@echo "... generate_marker"
+	@echo "... line_follower"
+	@echo "... teleop_node"
 	@echo "... src/aruco_detector.o"
 	@echo "... src/aruco_detector.i"
 	@echo "... src/aruco_detector.s"
 	@echo "... src/generate_marker.o"
 	@echo "... src/generate_marker.i"
 	@echo "... src/generate_marker.s"
+	@echo "... src/line_follower.o"
+	@echo "... src/line_follower.i"
+	@echo "... src/line_follower.s"
+	@echo "... src/teleop_node.o"
+	@echo "... src/teleop_node.i"
+	@echo "... src/teleop_node.s"
 .PHONY : help
 
 

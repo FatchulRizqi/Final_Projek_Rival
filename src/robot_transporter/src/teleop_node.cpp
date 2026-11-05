@@ -6,7 +6,7 @@
 class TeleopJoyNode : public rclcpp::Node {
 public:
     TeleopJoyNode() : Node("teleop_joy_node") {
-        publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel", 10);
+        publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("cmd_vel_manual", 10);
 
         // Subscribe ke topic /joy yang dipancarkan oleh stik PS4
         subscriber_ = this->create_subscription<sensor_msgs::msg::Joy>(

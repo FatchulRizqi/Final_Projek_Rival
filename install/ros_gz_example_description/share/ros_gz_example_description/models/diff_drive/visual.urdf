@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="diff_drive">
+  <link name="base_link" />
+  <link name="chassis">
+    <visual>
+      <geometry>
+        <box size="2.01142 1 0.568726">
+            </box>
+      </geometry>
+      <material name="chassis_color">
+        <color rgba="0.5 0.5 1.0 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="2.01142 1 0.568726">
+            </box>
+      </geometry>
+    </collision>
+  </link>
+  <link name="left_wheel">
+    <visual>
+      <geometry>
+        <sphere radius="0.3">
+            </sphere>
+      </geometry>
+      <material name="left_wheel_color">
+        <color rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.3">
+            </sphere>
+      </geometry>
+    </collision>
+  </link>
+  <link name="right_wheel">
+    <visual>
+      <geometry>
+        <sphere radius="0.3">
+            </sphere>
+      </geometry>
+      <material name="right_wheel_color">
+        <color rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.3">
+            </sphere>
+      </geometry>
+    </collision>
+  </link>
+  <link name="caster">
+    <visual>
+      <geometry>
+        <sphere radius="0.2">
+            </sphere>
+      </geometry>
+      <material name="caster_color">
+        <color rgba="0.2 0.2 0.2 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <sphere radius="0.2">
+            </sphere>
+      </geometry>
+    </collision>
+  </link>
+  <link name="lidar_link">
+    <visual>
+      <geometry>
+        <box size="0.1 0.1 0.1">
+            </box>
+      </geometry>
+      <material name="lidar_link_color">
+        <color rgba="0.3 0.6 0.7 1" />
+      </material>
+    </visual>
+    <collision>
+      <geometry>
+        <box size="0.1 0.1 0.1">
+            </box>
+      </geometry>
+    </collision>
+  </link>
+  <joint name="base_to_chassis" type="fixed">
+    <parent link="base_link" />
+    <child link="chassis" />
+    <origin xyz="-0.151427 -0.0 0.175" rpy="0.0 -0.0 0.0" />
+  </joint>
+  <joint name="left_wheel_joint" type="continuous">
+    <parent link="chassis" />
+    <child link="left_wheel" />
+    <origin xyz="0.70571 0.625029 -0.19999999999999998" rpy="-1.5707 0.0 0.0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="right_wheel_joint" type="continuous">
+    <parent link="chassis" />
+    <child link="right_wheel" />
+    <origin xyz="0.705709 -0.625029 -0.19999999999999998" rpy="-1.5707 0.0 0.0" />
+    <axis xyz="0 0 1" />
+  </joint>
+  <joint name="caster_visual_joint" type="fixed">
+    <parent link="chassis" />
+    <child link="caster" />
+    <origin xyz="-0.8057110000000001 0.0 -0.3" rpy="0.0 -0.0 0.0" />
+  </joint>
+  <joint name="lidar_link_joint" type="fixed">
+    <parent link="chassis" />
+    <child link="lidar_link" />
+    <origin xyz="0.151427 0.0 0.325" rpy="0.0 0.0 0.0" />
+  </joint>
+</robot>

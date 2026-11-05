@@ -64,6 +64,8 @@ CMAKE_BINARY_DIR = /home/symphony/Final_Projek/build/robot_transporter
 
 # The main recursive "all" target.
 all: CMakeFiles/generate_marker.dir/all
+all: CMakeFiles/teleop_node.dir/all
+all: CMakeFiles/line_follower.dir/all
 all: CMakeFiles/aruco_detector.dir/all
 .PHONY : all
 
@@ -75,6 +77,8 @@ preinstall:
 clean: CMakeFiles/uninstall.dir/clean
 clean: CMakeFiles/robot_transporter_uninstall.dir/clean
 clean: CMakeFiles/generate_marker.dir/clean
+clean: CMakeFiles/teleop_node.dir/clean
+clean: CMakeFiles/line_follower.dir/clean
 clean: CMakeFiles/aruco_detector.dir/clean
 .PHONY : clean
 
@@ -155,6 +159,58 @@ generate_marker: CMakeFiles/generate_marker.dir/rule
 CMakeFiles/generate_marker.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/generate_marker.dir/build.make CMakeFiles/generate_marker.dir/clean
 .PHONY : CMakeFiles/generate_marker.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/teleop_node.dir
+
+# All Build rule for target.
+CMakeFiles/teleop_node.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles --progress-num=7,8 "Built target teleop_node"
+.PHONY : CMakeFiles/teleop_node.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/teleop_node.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/teleop_node.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles 0
+.PHONY : CMakeFiles/teleop_node.dir/rule
+
+# Convenience name for target.
+teleop_node: CMakeFiles/teleop_node.dir/rule
+.PHONY : teleop_node
+
+# clean rule for target.
+CMakeFiles/teleop_node.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/teleop_node.dir/build.make CMakeFiles/teleop_node.dir/clean
+.PHONY : CMakeFiles/teleop_node.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/line_follower.dir
+
+# All Build rule for target.
+CMakeFiles/line_follower.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles --progress-num=5,6 "Built target line_follower"
+.PHONY : CMakeFiles/line_follower.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/line_follower.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/line_follower.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/symphony/Final_Projek/build/robot_transporter/CMakeFiles 0
+.PHONY : CMakeFiles/line_follower.dir/rule
+
+# Convenience name for target.
+line_follower: CMakeFiles/line_follower.dir/rule
+.PHONY : line_follower
+
+# clean rule for target.
+CMakeFiles/line_follower.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/line_follower.dir/build.make CMakeFiles/line_follower.dir/clean
+.PHONY : CMakeFiles/line_follower.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/aruco_detector.dir
