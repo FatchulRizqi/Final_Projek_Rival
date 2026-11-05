@@ -1,0 +1,10 @@
+[0.010s] Invoking command in '/home/symphony/Final_Projek/build/robot_transporter': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/robot_transporter -- -j20 -l20
+[0.114s] [ 50%] [32mBuilding CXX object CMakeFiles/generate_marker.dir/src/generate_marker.cpp.o[0m
+[0.127s] [01m[K/home/symphony/Final_Projek/src/robot_transporter/src/generate_marker.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/opencv.hpp: No such file or directory
+[0.128s]     1 | #include [01;31m[K<opencv2/opencv.hpp>[m[K
+[0.128s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[0.128s] compilation terminated.
+[0.128s] gmake[2]: *** [CMakeFiles/generate_marker.dir/build.make:76: CMakeFiles/generate_marker.dir/src/generate_marker.cpp.o] Error 1
+[0.129s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/generate_marker.dir/all] Error 2
+[0.129s] gmake: *** [Makefile:146: all] Error 2
+[0.132s] Invoked command in '/home/symphony/Final_Projek/build/robot_transporter' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/robot_transporter -- -j20 -l20

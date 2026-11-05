@@ -1,0 +1,13 @@
+[0.009s] Invoking command in '/home/symphony/Final_Projek/build/robot_transporter': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/robot_transporter -- -j20 -l20
+[0.116s] [ 50%] [32mBuilding CXX object CMakeFiles/generate_marker.dir/src/generate_marker.cpp.o[0m
+[0.853s] [01m[K/home/symphony/Final_Projek/src/robot_transporter/src/generate_marker.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[0.854s] [01m[K/home/symphony/Final_Projek/src/robot_transporter/src/generate_marker.cpp:10:20:[m[K [01;31m[Kerror: [m[K‘[01m[KgenerateImageMarker[m[K’ is not a member of ‘[01m[Kcv::aruco[m[K’
+[0.854s]    10 |         cv::aruco::[01;31m[KgenerateImageMarker[m[K(dict, id, 400, marker);
+[0.854s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.855s] [01m[K/home/symphony/Final_Projek/src/robot_transporter/src/generate_marker.cpp:10:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kdict[m[K’ was not declared in this scope
+[0.855s]    10 |         cv::aruco::generateImageMarker([01;31m[Kdict[m[K, id, 400, marker);
+[0.855s]       |                                        [01;31m[K^~~~[m[K
+[1.076s] gmake[2]: *** [CMakeFiles/generate_marker.dir/build.make:76: CMakeFiles/generate_marker.dir/src/generate_marker.cpp.o] Error 1
+[1.077s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/generate_marker.dir/all] Error 2
+[1.077s] gmake: *** [Makefile:146: all] Error 2
+[1.079s] Invoked command in '/home/symphony/Final_Projek/build/robot_transporter' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/robot_transporter -- -j20 -l20

@@ -1,0 +1,9 @@
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/uninstall.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/robot_transporter_uninstall.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/test.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/edit_cache.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/rebuild_cache.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/list_install_components.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/install.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/install/local.dir
+/home/symphony/Final_Projek/src/robot_transporter/build/CMakeFiles/install/strip.dir

@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000512] (robot_transporter) JobQueued: {'identifier': 'robot_transporter', 'dependencies': OrderedDict()}
+[0.000559] (robot_transporter) JobStarted: {'identifier': 'robot_transporter'}
+[0.008944] (robot_transporter) JobProgress: {'identifier': 'robot_transporter', 'progress': 'cmake'}
+[0.009514] (robot_transporter) JobProgress: {'identifier': 'robot_transporter', 'progress': 'build'}
+[0.010169] (robot_transporter) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/symphony/Final_Projek/build/robot_transporter', '--', '-j20', '-l20'], 'cwd': '/home/symphony/Final_Projek/build/robot_transporter', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', '0aa6745f705f2c4b0a5004eb019ef76e5bbdb426_1793782421_669798938'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony/Final_Projek/src'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '4570'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/home/symphony/Final_Projek/install:/home/symphony/Final_Projek/src/robot_transporter/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '8c7a88fe-40e3-4d37-81fa-dd77e7ed5557'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/home/symphony/Final_Projek/install/robot_transporter:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/Final_Projek/build/robot_transporter'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '3047029383307461'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/symphony/Final_Projek/install/robot_transporter:/opt/ros/humble')]), 'shell': False}
+[0.089328] (robot_transporter) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target aruco_detector\x1b[0m\n'}
+[0.099870] (-) TimerEvent: {}
+[0.107840] (robot_transporter) StdoutLine: {'line': b'[ 50%] Built target generate_marker\n'}
+[0.115650] (robot_transporter) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/aruco_detector.dir/src/aruco_detector.cpp.o\x1b[0m\n'}
+[0.200068] (-) TimerEvent: {}
+[0.300561] (-) TimerEvent: {}
+[0.400865] (-) TimerEvent: {}
+[0.501176] (-) TimerEvent: {}
+[0.601460] (-) TimerEvent: {}
+[0.701771] (-) TimerEvent: {}
+[0.802111] (-) TimerEvent: {}
+[0.902446] (-) TimerEvent: {}
+[1.002680] (-) TimerEvent: {}
+[1.102936] (-) TimerEvent: {}
+[1.203221] (-) TimerEvent: {}
+[1.303518] (-) TimerEvent: {}
+[1.403839] (-) TimerEvent: {}
+[1.504186] (-) TimerEvent: {}
+[1.604483] (-) TimerEvent: {}
+[1.704835] (-) TimerEvent: {}
+[1.805103] (-) TimerEvent: {}
+[1.905433] (-) TimerEvent: {}
+[2.005775] (-) TimerEvent: {}
+[2.106114] (-) TimerEvent: {}
+[2.206397] (-) TimerEvent: {}
+[2.306740] (-) TimerEvent: {}
+[2.407040] (-) TimerEvent: {}
+[2.507332] (-) TimerEvent: {}
+[2.607715] (-) TimerEvent: {}
+[2.708059] (-) TimerEvent: {}
+[2.808335] (-) TimerEvent: {}
+[2.908618] (-) TimerEvent: {}
+[3.008960] (-) TimerEvent: {}
+[3.109204] (-) TimerEvent: {}
+[3.209468] (-) TimerEvent: {}
+[3.309800] (-) TimerEvent: {}
+[3.410057] (-) TimerEvent: {}
+[3.510368] (-) TimerEvent: {}
+[3.610648] (-) TimerEvent: {}
+[3.710982] (-) TimerEvent: {}
+[3.797381] (robot_transporter) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable aruco_detector\x1b[0m\n'}
+[3.811058] (-) TimerEvent: {}
+[3.911312] (-) TimerEvent: {}
+[4.011561] (-) TimerEvent: {}
+[4.111911] (-) TimerEvent: {}
+[4.187100] (robot_transporter) StdoutLine: {'line': b'[100%] Built target aruco_detector\n'}
+[4.198572] (robot_transporter) CommandEnded: {'returncode': 0}
+[4.199577] (robot_transporter) JobProgress: {'identifier': 'robot_transporter', 'progress': 'install'}
+[4.212272] (-) TimerEvent: {}
+[4.212671] (robot_transporter) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/symphony/Final_Projek/build/robot_transporter'], 'cwd': '/home/symphony/Final_Projek/build/robot_transporter', 'env': OrderedDict([('MAIL', '/var/spool/mail/symphony'), ('HYPRLAND_CMD', 'Hyprland --watchdog-fd 4'), ('USER', 'symphony'), ('HYPRLAND_INSTANCE_SIGNATURE', '0aa6745f705f2c4b0a5004eb019ef76e5bbdb426_1793782421_669798938'), ('STARSHIP_SHELL', 'bash'), ('HOSTNAME', 'FatchulRizqi'), ('XDG_SESSION_TYPE', 'wayland'), ('XCURSOR_SIZE', '23'), ('XDG_CACHE_HOME', '/home/symphony/.cache'), ('SHLVL', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/symphony'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('MOZ_ENABLE_WAYLAND', '1'), ('OLDPWD', '/home/symphony/Final_Projek/src'), ('DESKTOP_SESSION', 'hyprland'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('ROS_PYTHON_VERSION', '3'), ('PS1', '[\\u@\\h \\W]\\$'), ('KITTY_PID', '4570'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('XDG_STATE_HOME', '/home/symphony/.local/state'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('QT_WAYLAND_DISABLE_WINDOWDECORATION', '1'), ('container', 'podman'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('QT_QPA_PLATFORMTHEME', 'qt6ct'), ('WAYLAND_DISPLAY', 'wayland-1'), ('COLCON_PREFIX_PATH', '/home/symphony/Final_Projek/install:/home/symphony/Final_Projek/src/robot_transporter/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'symphony'), ('QT_AUTO_SCREEN_SCALE_FACTOR', '1.25'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('CLUTTER_BACKEND', 'wayland'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('HL_INITIAL_WORKSPACE_TOKEN', '8c7a88fe-40e3-4d37-81fa-dd77e7ed5557'), ('PATH', '/opt/ros/humble/bin:/usr/local/bin:/usr/bin:/var/lib/flatpak/exports/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/symphony/.spicetify:/home/symphony/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/bin:/home/symphony/.spicetify:/home/symphony/.spicetify'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'wayland,x11,*'), ('DISPLAY', ':1'), ('HYPRCURSOR_SIZE', '23'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Hyprland'), ('XDG_DATA_HOME', '/home/symphony/.local/share'), ('XDG_CONFIG_HOME', '/home/symphony/.config'), ('LIBVA_DRIVER_NAME', 'nvidia'), ('XDG_SESSION_DESKTOP', 'Hyprland'), ('AMENT_PREFIX_PATH', '/home/symphony/Final_Projek/install/robot_transporter:/opt/ros/humble'), ('SHELL', '/usr/bin/bash'), ('SDL_VIDEODRIVER', 'wayland'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('PWD', '/home/symphony/Final_Projek/build/robot_transporter'), ('CONTAINER_ID', 'ros2-box'), ('QT_QPA_PLATFORM', 'wayland;xcb'), ('XDG_CONFIG_DIRS', '/etc/xdg'), ('XDG_BACKEND', 'wayland'), ('XDG_DATA_DIRS', '/home/symphony/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('STARSHIP_SESSION_KEY', '3047029383307461'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/symphony/Final_Projek/install/robot_transporter:/opt/ros/humble')]), 'shell': False}
+[4.222181] (robot_transporter) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.222434] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/generate_marker\n'}
+[4.222554] (robot_transporter) StdoutLine: {'line': b'-- Installing: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector\n'}
+[4.223673] (robot_transporter) StdoutLine: {'line': b'-- Set runtime path of "/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector" to ""\n'}
+[4.223784] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter\n'}
+[4.223867] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter\n'}
+[4.223947] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh\n'}
+[4.224025] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.dsv\n'}
+[4.224112] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.sh\n'}
+[4.224207] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.dsv\n'}
+[4.224306] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.bash\n'}
+[4.224402] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.sh\n'}
+[4.224497] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.zsh\n'}
+[4.224585] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.dsv\n'}
+[4.224670] (robot_transporter) StdoutLine: {'line': b'-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.dsv\n'}
+[4.224945] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/packages/robot_transporter\n'}
+[4.225037] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig.cmake\n'}
+[4.225166] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig-version.cmake\n'}
+[4.225263] (robot_transporter) StdoutLine: {'line': b'-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.xml\n'}
+[4.226711] (robot_transporter) CommandEnded: {'returncode': 0}
+[4.250064] (robot_transporter) JobEnded: {'identifier': 'robot_transporter', 'rc': 0}
+[4.250652] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/generate_marker
+/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector
+/home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter
+/home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.dsv
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.sh
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.dsv
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.bash
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.sh
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.zsh
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.dsv
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.dsv
+/home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/packages/robot_transporter
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig.cmake
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig-version.cmake
+/home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.xml

@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.8)
+project(ros_gz_example_gazebo)
+find_package(ament_cmake REQUIRED)
+find_package(ros_gz_example_description REQUIRED)
+install(DIRECTORY worlds DESTINATION share/${PROJECT_NAME})
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/${PROJECT_NAME}.dsv.in")
+ament_environment_hooks("${CMAKE_CURRENT_SOURCE_DIR}/hooks/${PROJECT_NAME}.sh.in")
+ament_package()

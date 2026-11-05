@@ -1,0 +1,11 @@
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/uninstall.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/robot_transporter_uninstall.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/generate_marker.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/aruco_detector.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/test.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/edit_cache.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/rebuild_cache.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/list_install_components.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/install.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/install/local.dir
+/home/symphony/Final_Projek/build/robot_transporter/CMakeFiles/install/strip.dir

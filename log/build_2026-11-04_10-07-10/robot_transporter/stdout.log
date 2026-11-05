@@ -1,0 +1,21 @@
+[35m[1mConsolidate compiler generated dependencies of target generate_marker[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/generate_marker.dir/src/generate_marker.cpp.o[0m
+[100%] [32m[1mLinking CXX executable generate_marker[0m
+[100%] Built target generate_marker
+-- Install configuration: ""
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/generate_marker
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.dsv
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.sh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.dsv
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.bash
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.sh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.zsh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.dsv
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.dsv
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/packages/robot_transporter
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig.cmake
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig-version.cmake
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.xml

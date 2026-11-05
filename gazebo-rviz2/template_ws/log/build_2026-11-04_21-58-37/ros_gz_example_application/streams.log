@@ -1,0 +1,41 @@
+[0.009s] Invoking command in '/home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/symphony/Final_Projek/gazebo-rviz2/template_ws/src/ros_gz_project_template/ros_gz_example_application -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application
+[0.173s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.340s] -- Detecting C compiler ABI info - done
+[0.347s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.347s] -- Detecting C compile features - done
+[0.351s] -- Detecting CXX compiler ABI info
+[0.440s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.448s] -- Detecting CXX compile features
+[0.448s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.585s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.640s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.717s] -- Configuring done
+[0.725s] -- Generating done
+[0.726s] -- Build files have been written to: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application
+[0.731s] Invoked command in '/home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/symphony/Final_Projek/gazebo-rviz2/template_ws/src/ros_gz_project_template/ros_gz_example_application -DBUILD_TESTING=OFF -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application
+[0.731s] Invoking command in '/home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application -- -j20 -l20
+[0.779s] Invoked command in '/home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application -- -j20 -l20
+[0.790s] Invoking command in '/home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application
+[0.806s] -- Install configuration: ""
+[0.807s] -- Execute custom install script
+[0.807s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_application
+[0.818s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_application
+[0.829s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.sh
+[0.840s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/ament_prefix_path.dsv
+[0.850s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.sh
+[0.860s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/environment/path.dsv
+[0.870s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.bash
+[0.882s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.sh
+[0.893s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.zsh
+[0.904s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/local_setup.dsv
+[0.913s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/package.dsv
+[0.923s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ament_index/resource_index/packages/ros_gz_example_application
+[0.933s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig.cmake
+[0.947s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/cmake/ros_gz_example_applicationConfig-version.cmake
+[0.959s] -- Symlinking: /home/symphony/Final_Projek/gazebo-rviz2/template_ws/install/ros_gz_example_application/share/ros_gz_example_application/package.xml
+[0.974s] Invoked command in '/home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/symphony/Final_Projek/gazebo-rviz2/template_ws/build/ros_gz_example_application

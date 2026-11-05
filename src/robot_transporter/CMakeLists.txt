@@ -9,6 +9,27 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(OpenCV REQUIRED)
+find_package(PkgConfig REQUIRED)
+include_directories(${OPENCV_INCLUDE_DIRS})
+
+# Cari package OpenCV
+find_package(OpenCV REQUIRED)
+
+# ... (pastikan add_executable kamu sudah ada seperti di bawah ini)
+add_executable(generate_marker src/generate_marker.cpp)
+target_include_directories(generate_marker PUBLIC ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(generate_marker ${OpenCV_LIBS})
+
+add_executable(teleop_node src/teleop_node.cpp)
+ament_target_dependencies(teleop_node rclcpp)
+
+add_executable(aruco_detector src/aruco_detector.cpp)
+ament_target_dependencies(aruco_detector rclcpp std_msgs OpenCV)
+target_include_directories(aruco_detector PUBLIC ${OpenCV_INCLUDE_DIRS})
+target_link_libraries(aruco_detector ${OpenCV_LIBS})
+
+install(TARGETS generate_marker aruco_detector DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

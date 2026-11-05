@@ -1,0 +1,7 @@
+[01m[K/home/symphony/Final_Projek/src/robot_transporter/src/aruco_detector.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kopencv2/objdetect/aruco_detector.hpp: No such file or directory
+    4 | #include [01;31m[K<opencv2/objdetect/aruco_detector.hpp>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/aruco_detector.dir/build.make:76: CMakeFiles/aruco_detector.dir/src/aruco_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/aruco_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
