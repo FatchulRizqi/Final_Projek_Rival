@@ -1,0 +1,32 @@
+[35m[1mConsolidate compiler generated dependencies of target aruco_detector[0m
+[ 25%] Built target generate_marker
+[ 37%] [32mBuilding CXX object CMakeFiles/aruco_detector.dir/src/aruco_detector.cpp.o[0m
+[ 62%] Built target line_follower
+[ 87%] Built target teleop_node
+[100%] [32m[1mLinking CXX executable aruco_detector[0m
+[100%] Built target aruco_detector
+-- Install configuration: ""
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/generate_marker
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector
+-- Set runtime path of "/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector" to ""
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/teleop_node
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/line_follower
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch/robot.launch.py
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config/twist_mux.yaml
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.sh
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.dsv
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.bash
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.sh
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.zsh
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.dsv
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.dsv
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/packages/robot_transporter
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig.cmake
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig-version.cmake
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.xml

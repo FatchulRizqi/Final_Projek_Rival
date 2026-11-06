@@ -46,11 +46,20 @@ def generate_launch_description():
         # Twist mux secara default mengeluarkan hasil ke /cmd_vel_out, kita ubah (remap) ke /cmd_vel
         remappings=[('/cmd_vel_out', '/cmd_vel')]
     )
+    
+    # 6. Node Kamera (Pendeteksi Aruco)
+    camera_node = Node(
+        package=pkg_name, # Ganti dengan nama paket kameramu jika berbeda
+        executable='camera_node', # Ganti dengan nama file eksekusi kameramu
+        name='camera_node',
+        output='screen'
+    )
 
     # Kembalikan semua node di atas untuk dieksekusi bersamaan
     return LaunchDescription([
         joy_node,
         teleop_node,
         line_follower_node,
-        twist_mux_node
+        twist_mux_node,
+        camera_node
     ])

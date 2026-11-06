@@ -18,6 +18,12 @@ include_directories(${OPENCV_INCLUDE_DIRS})
 # Cari package OpenCV
 find_package(OpenCV REQUIRED)
 
+# add_executable(hc05_bridge_node src/hc05_bridge_node.cpp)
+# ament_target_dependencies(hc05_bridge_node rclcpp std_msgs)
+#
+# # SANGAT PENTING: Link library native bluetooth Linux
+# target_link_libraries(hc05_bridge_node bluetooth)
+
 # ... (pastikan add_executable kamu sudah ada seperti di bawah ini)
 add_executable(generate_marker src/generate_marker.cpp)
 target_include_directories(generate_marker PUBLIC ${OpenCV_INCLUDE_DIRS})
@@ -37,6 +43,11 @@ target_link_libraries(aruco_detector ${OpenCV_LIBS})
 install(TARGETS generate_marker aruco_detector teleop_node line_follower DESTINATION lib/${PROJECT_NAME})
 
 install(DIRECTORY launch config DESTINATION share/${PROJECT_NAME})
+
+install(PROGRAMS
+  scripts/bleak_ros_node.py
+  DESTINATION lib/${PROJECT_NAME}
+)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

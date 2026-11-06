@@ -1,0 +1,65 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/symphony/Final_Projek/build/robot_transporter
+[35m[1mConsolidate compiler generated dependencies of target teleop_node[0m
+[35m[1mConsolidate compiler generated dependencies of target generate_marker[0m
+[35m[1mConsolidate compiler generated dependencies of target aruco_detector[0m
+[35m[1mConsolidate compiler generated dependencies of target line_follower[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/hc05_bridge_node.dir/src/hc05_bridge_node.cpp.o[0m
+[ 30%] Built target generate_marker
+[ 40%] [32mBuilding CXX object CMakeFiles/aruco_detector.dir/src/aruco_detector.cpp.o[0m
+[ 60%] Built target line_follower
+[ 80%] Built target teleop_node
+[ 90%] [32m[1mLinking CXX executable aruco_detector[0m
+[ 90%] Built target aruco_detector
+[100%] [32m[1mLinking CXX executable hc05_bridge_node[0m
+[100%] Built target hc05_bridge_node
+-- Install configuration: ""
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/hc05_bridge_node
+-- Set runtime path of "/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/hc05_bridge_node" to ""
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/generate_marker
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector
+-- Set runtime path of "/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector" to ""
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/teleop_node
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/line_follower
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch/robot.launch.py
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config/twist_mux.yaml
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.sh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.dsv
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.bash
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.sh
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.zsh
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.dsv
+-- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.dsv
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/packages/robot_transporter
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig.cmake
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig-version.cmake
+-- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.xml

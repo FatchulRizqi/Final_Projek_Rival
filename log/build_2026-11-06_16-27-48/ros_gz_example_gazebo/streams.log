@@ -1,0 +1,24 @@
+[0.009s] Invoking command in '/home/symphony/Final_Projek/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org GZ_SIM_RESOURCE_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description/share/ros_gz_example_description/models PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/ros_gz_example_gazebo -- -j20 -l20
+[0.045s] Invoked command in '/home/symphony/Final_Projek/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org GZ_SIM_RESOURCE_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description/share/ros_gz_example_description/models PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/ros_gz_example_gazebo -- -j20 -l20
+[0.047s] Invoking command in '/home/symphony/Final_Projek/build/ros_gz_example_gazebo': AMENT_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org GZ_SIM_RESOURCE_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description/share/ros_gz_example_description/models PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/Final_Projek/build/ros_gz_example_gazebo
+[0.053s] -- Install configuration: ""
+[0.053s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/worlds
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/worlds/diff_drive.sdf
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.dsv
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ros_gz_example_gazebo.sh
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ament_index/resource_index/package_run_dependencies/ros_gz_example_gazebo
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ament_index/resource_index/parent_prefix_path/ros_gz_example_gazebo
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.sh
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/environment/path.dsv
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.bash
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.sh
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.zsh
+[0.054s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/local_setup.dsv
+[0.054s] -- Installing: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.dsv
+[0.055s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ament_index/resource_index/packages/ros_gz_example_gazebo
+[0.055s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig.cmake
+[0.055s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/cmake/ros_gz_example_gazeboConfig-version.cmake
+[0.055s] -- Up-to-date: /home/symphony/Final_Projek/install/ros_gz_example_gazebo/share/ros_gz_example_gazebo/package.xml
+[0.056s] Invoked command in '/home/symphony/Final_Projek/build/ros_gz_example_gazebo' returned '0': AMENT_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org GZ_SIM_RESOURCE_PATH=/home/symphony/Final_Projek/install/ros_gz_example_description/share/ros_gz_example_description/models PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/Final_Projek/build/ros_gz_example_gazebo

@@ -1,0 +1,5 @@
+[01m[K/home/symphony/Final_Projek/src/robot_transporter/src/hc05_bridge_node.cpp:[m[K In member function ‘[01m[Kvoid Hc05BridgeNode::connection_loop()[m[K’:
+[01m[K/home/symphony/Final_Projek/src/robot_transporter/src/hc05_bridge_node.cpp:46:35:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_rc::rc_bdaddr[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]
+   46 |       struct sockaddr_rc addr = {0[01;35m[K}[m[K;
+      |                                   [01;35m[K^[m[K
+[01m[K/home/symphony/Final_Projek/src/robot_transporter/src/hc05_bridge_node.cpp:46:35:[m[K [01;35m[Kwarning: [m[Kmissing initializer for member ‘[01m[Ksockaddr_rc::rc_channel[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmissing-field-initializers-Wmissing-field-initializers]8;;[m[K]

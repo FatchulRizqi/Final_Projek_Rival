@@ -1,0 +1,36 @@
+[0.013s] Invoking command in '/home/symphony/Final_Projek/build/robot_transporter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/robot_transporter -- -j20 -l20
+[0.092s] [35m[1mConsolidate compiler generated dependencies of target teleop_node[0m
+[0.129s] [ 25%] Built target generate_marker
+[0.137s] [ 37%] [32mBuilding CXX object CMakeFiles/teleop_node.dir/src/teleop_node.cpp.o[0m
+[0.139s] [ 62%] Built target line_follower
+[0.139s] [ 87%] Built target aruco_detector
+[5.685s] [100%] [32m[1mLinking CXX executable teleop_node[0m
+[5.957s] [100%] Built target teleop_node
+[5.967s] Invoked command in '/home/symphony/Final_Projek/build/robot_transporter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --build /home/symphony/Final_Projek/build/robot_transporter -- -j20 -l20
+[5.969s] Invoking command in '/home/symphony/Final_Projek/build/robot_transporter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/Final_Projek/build/robot_transporter
+[5.975s] -- Install configuration: ""
+[5.975s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/generate_marker
+[5.975s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/aruco_detector
+[5.975s] -- Installing: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/teleop_node
+[5.977s] -- Set runtime path of "/home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/teleop_node" to ""
+[5.977s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/lib/robot_transporter/line_follower
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/launch/robot.launch.py
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/config/twist_mux.yaml
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/package_run_dependencies/robot_transporter
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/parent_prefix_path/robot_transporter
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.sh
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/ament_prefix_path.dsv
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.sh
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/environment/path.dsv
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.bash
+[5.978s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.sh
+[5.979s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.zsh
+[5.979s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/local_setup.dsv
+[5.979s] -- Installing: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.dsv
+[5.979s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/ament_index/resource_index/packages/robot_transporter
+[5.979s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig.cmake
+[5.979s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/cmake/robot_transporterConfig-version.cmake
+[5.979s] -- Up-to-date: /home/symphony/Final_Projek/install/robot_transporter/share/robot_transporter/package.xml
+[5.981s] Invoked command in '/home/symphony/Final_Projek/build/robot_transporter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org PS1=[\u@\h \W]\$ /usr/bin/cmake --install /home/symphony/Final_Projek/build/robot_transporter
